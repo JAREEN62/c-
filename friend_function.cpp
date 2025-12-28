@@ -5,7 +5,7 @@ class Complex
 {
 private:
     int real, img;
-
+   
 public:
     Complex(int r = 0, int i = 0)
     {
@@ -14,7 +14,7 @@ public:
     }
 
     void display()
-    {
+    { 
         cout<<real<<"+i"<<img;
     }
     
